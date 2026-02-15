@@ -1,0 +1,81 @@
+========================================
+   REAL EDITOR - QUICK START GUIDE
+========================================
+
+HOW TO RUN THE APPLICATION:
+---------------------------
+
+EASIEST WAY:
+1. Double-click "Start-RealEditor.bat"
+2. Wait for the application window to appear
+3. Done!
+
+
+MANUAL METHOD (if batch file doesn't work):
+--------------------------------------------
+
+STEP 1: Start MariaDB Server
+   - Open PowerShell as Administrator
+   - Run: cd "C:\Program Files\MariaDB 11.5\bin"
+   - Run: .\mysqld.exe --console
+   - KEEP THIS WINDOW OPEN!
+
+STEP 2: Start Real Editor
+   - Open new PowerShell/CMD window
+   - Navigate to: cd "c:\Users\Dream Homes\Desktop\st a1\Text-Editor-ST"
+   - Run: run-editor.bat
+
+
+DATABASE CREDENTIALS:
+---------------------
+Host:     localhost:3306
+Database: realeditor
+Username: root
+Password: taqi123
+
+
+FEATURES YOU CAN USE:
+---------------------
+✓ Create new Arabic text files
+✓ Import existing .txt files
+✓ Edit text with auto-save (every 10 seconds)
+✓ Delete files
+✓ Search files by keyword (3+ characters)
+✓ Arabic NLP Analytics:
+  - Lemmatization
+  - POS Tagging
+  - Root Extraction
+  - Stemming
+  - Word Segmentation
+  - Transliteration
+  - TF-IDF Scoring
+  - PMI Calculation
+  - PKL Analysis
+
+
+TROUBLESHOOTING:
+----------------
+
+Problem: "Can't connect to database"
+Solution: Make sure MariaDB is running (see STEP 1 above)
+
+Problem: "Port 3306 already in use"
+Solution: Another database is running. Close it or change port in config.properties
+
+Problem: Application won't start
+Solution: Make sure Java is installed. Check with: java -version
+
+Problem: MariaDB service won't start
+Solution: Run MariaDB manually (see MANUAL METHOD above)
+
+
+FILES LOCATION:
+---------------
+Application:   c:\Users\Dream Homes\Desktop\st a1\Text-Editor-ST\
+Database Data: C:\Program Files\MariaDB 11.5\data\
+Logs:          c:\Users\Dream Homes\Desktop\st a1\Text-Editor-ST\logs\
+
+
+========================================
+For support, check the README.md file
+========================================

@@ -20,3 +20,7 @@
 2024-12-10 21:25:27.599 [AWT-EventQueue-0] INFO  pl.EditorPO - Do you want to delete the selected file?
 2024-12-10 21:25:40.338 [AWT-EventQueue-0] INFO  pl.EditorPO - TF-IDF Score for 'surah falaq.txt' is: 0.009627044174443686
 2024-12-10 21:25:45.280 [AWT-EventQueue-0] INFO  pl.EditorPO - TF-IDF Score for 'quran-simple.txt' is: 0.014417461355646866
+2026-02-15 00:52:54.591 [AWT-EventQueue-0] ERROR pl.EditorPO - (conn=12) Unknown column 'NaN' in 'field list'
+2026-02-15 00:52:57.946 [AWT-EventQueue-0] INFO  pl.EditorPO - File creation failed!
+2026-02-15 00:53:53.010 [AWT-EventQueue-0] ERROR pl.EditorPO - (conn=12) Unknown column 'NaN' in 'field list'
+2026-02-15 00:53:54.415 [AWT-EventQueue-0] INFO  pl.EditorPO - File creation failed!
