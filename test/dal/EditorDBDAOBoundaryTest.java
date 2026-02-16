@@ -15,10 +15,7 @@ import org.mockito.MockitoAnnotations;
 
 import dto.Documents;
 
-/**
- * Boundary and Limit Condition Tests for EditorDBDAO (Data Access Layer)
- * Tests: Database limits, connection handling, transaction boundaries, null handling
- */
+
 public class EditorDBDAOBoundaryTest {
     
     @Mock
@@ -85,7 +82,7 @@ public class EditorDBDAOBoundaryTest {
         }
     }
     
-    // ========== TEST CATEGORY: EMPTY STRING BOUNDARIES ==========
+    // ======== TEST CATEGORY: EMPTY STRING BOUNDARIES ========
     
     @Test
     public void testCreateFileInDB_EmptyFileName() {
@@ -166,7 +163,7 @@ public class EditorDBDAOBoundaryTest {
         }
     }
     
-    // ========== TEST CATEGORY: UPDATE BOUNDARIES ==========
+    // ======= TEST CATEGORY: UPDATE BOUNDARIES =======
     
     @Test
     public void testUpdateFileInDB_NegativeId() {
@@ -208,7 +205,7 @@ public class EditorDBDAOBoundaryTest {
         assertFalse("Should reject page number = 0", result);
     }
     
-    // ========== TEST CATEGORY: DELETE BOUNDARIES ==========
+    // ======= TEST CATEGORY: DELETE BOUNDARIES =======
     
     @Test
     public void testDeleteFileInDB_NegativeId() {
@@ -234,7 +231,7 @@ public class EditorDBDAOBoundaryTest {
         assertFalse("Should return false for non-existent ID", result);
     }
     
-    // ========== TEST CATEGORY: QUERY RESULT BOUNDARIES ==========
+    // ====== TEST CATEGORY: QUERY RESULT BOUNDARIES ======
     
     @Test
     public void testGetFilesFromDB_EmptyDatabase() {
