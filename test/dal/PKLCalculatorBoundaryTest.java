@@ -3,13 +3,9 @@ package dal;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-/**
- * Boundary and Limit Condition Tests for PKLCalculator
- * Tests major functionality with edge cases (Issue #41)
- */
 public class PKLCalculatorBoundaryTest {
 
-    // ========== TEST CATEGORY: NULL INPUT VALIDATION ==========
+    // ==== TEST CATEGORY: NULL INPUT VALIDATION ==
     
     @Test(expected = NullPointerException.class)
     public void testConstructor_NullDocument() {
@@ -37,7 +33,7 @@ public class PKLCalculatorBoundaryTest {
         }
     }
     
-    // ========== TEST CATEGORY: EMPTY STRING BOUNDARIES ==========
+    // ====== TEST CATEGORY: EMPTY STRING BOUNDARIES =======
     
     @Test
     public void testCalculatePKL_EmptyStrings() {
@@ -152,7 +148,7 @@ public class PKLCalculatorBoundaryTest {
         assertFalse("Should handle special characters", Double.isNaN(result));
     }
     
-    // ========== TEST CATEGORY: PERFORMANCE ==========
+    // ======= TEST CATEGORY: PERFORMANCE =======
     
     @Test(timeout = 5000)
     public void testCalculatePKL_Performance() {
@@ -167,7 +163,7 @@ public class PKLCalculatorBoundaryTest {
         assertTrue("Should complete within 5 seconds", true);
     }
     
-    // ========== HELPER METHODS ==========
+    // ====== HELPER METHODS ========
     
     private String generateString(int length) {
         StringBuilder sb = new StringBuilder(length);
