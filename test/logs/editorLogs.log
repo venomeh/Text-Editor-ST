@@ -1,0 +1,17 @@
+2026-02-16 13:59:27.966 [main] ERROR pl.EditorPO - config.properties (The system cannot find the file specified)
+2026-02-16 13:59:28.291 [main] ERROR pl.EditorPO - Cannot invoke "java.sql.Connection.setAutoCommit(boolean)" because "this.conn" is null
+2026-02-16 13:59:28.300 [main] ERROR pl.EditorPO - Cannot invoke "java.sql.Connection.setAutoCommit(boolean)" because "this.conn" is null
+2026-02-16 13:59:28.304 [main] ERROR pl.EditorPO - Cannot invoke "String.toCharArray()" because "<parameter1>" is null
+2026-02-16 13:59:28.319 [main] ERROR pl.EditorPO - Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "<parameter1>" is null
+2026-02-16 13:59:28.354 [main] ERROR pl.EditorPO - Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "<parameter1>" is null
+2026-02-16 14:37:21.783 [main] ERROR pl.EditorPO - null
+2026-02-16 14:37:21.797 [main] ERROR pl.EditorPO - null
+2026-02-16 14:37:21.821 [main] ERROR pl.EditorPO - nonexistent.txt (The system cannot find the file specified)
+2026-02-16 14:37:22.410 [main] ERROR pl.EditorPO - config.properties (The system cannot find the file specified)
+2026-02-16 14:37:22.677 [main] ERROR pl.EditorPO - Cannot invoke "java.sql.Connection.setAutoCommit(boolean)" because "this.conn" is null
+2026-02-16 14:37:22.689 [main] ERROR pl.EditorPO - Cannot invoke "java.sql.Connection.setAutoCommit(boolean)" because "this.conn" is null
+2026-02-16 14:37:22.696 [main] ERROR pl.EditorPO - Cannot invoke "String.toCharArray()" because "<parameter1>" is null
+2026-02-16 14:37:22.714 [main] ERROR pl.EditorPO - Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "<parameter1>" is null
+2026-02-16 14:37:22.750 [main] ERROR pl.EditorPO - Cannot invoke "String.getBytes(java.nio.charset.Charset)" because "<parameter1>" is null
+2026-02-16 14:37:29.381 [main] ERROR pl.EditorPO - Database error
+2026-02-16 14:37:29.388 [main] ERROR pl.EditorPO - SQL Exception
