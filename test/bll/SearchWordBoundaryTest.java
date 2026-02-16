@@ -52,7 +52,7 @@ public class SearchWordBoundaryTest {
         testDocuments.add(doc2);
     }
     
-    // ========== TEST CATEGORY: MINIMUM KEYWORD LENGTH (Issue #23) ==========
+    // ===== TEST CATEGORY: MINIMUM KEYWORD LENGTH (Issue #23) ======
     
     @Test(expected = IllegalArgumentException.class)
     public void testSearchKeyword_EmptyString() {
@@ -150,7 +150,7 @@ public class SearchWordBoundaryTest {
         }
     }
     
-    // ========== TEST CATEGORY: SQL INJECTION ATTEMPTS (Issue #22) ==========
+    // ======= TEST CATEGORY: SQL INJECTION ATTEMPTS (Issue #22) =====
     
     @Test
     public void testSearchKeyword_SQLInjectionSingleQuote() {
@@ -345,7 +345,7 @@ public class SearchWordBoundaryTest {
             List<String> results = SearchWord.searchKeyword("test", docs);
             assertNotNull("Should handle null pages", results);
         } catch (NullPointerException e) {
-            // Expected if not handled
+            
         }
     }
 }
