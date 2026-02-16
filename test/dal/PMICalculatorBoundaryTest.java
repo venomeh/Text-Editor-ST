@@ -3,10 +3,7 @@ package dal;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-/**
- * Boundary and Limit Condition Tests for PMICalculator
- * Tests major functionality with edge cases (Issue #39)
- */
+ 
 public class PMICalculatorBoundaryTest {
 
     // ========== TEST CATEGORY: NULL INPUT VALIDATION ==========
@@ -175,7 +172,7 @@ public class PMICalculatorBoundaryTest {
         assertTrue("Should complete within 5 seconds", true);
     }
     
-    // ========== TEST CATEGORY: EDGE CASE COMBINATIONS ==========
+    // ===== TEST CATEGORY: EDGE CASE COMBINATIONS ======
     
     @Test
     public void testCalculatePMI_TwoWordDocument() {
