@@ -24,3 +24,5 @@
 2026-02-15 00:52:57.946 [AWT-EventQueue-0] INFO  pl.EditorPO - File creation failed!
 2026-02-15 00:53:53.010 [AWT-EventQueue-0] ERROR pl.EditorPO - (conn=12) Unknown column 'NaN' in 'field list'
 2026-02-15 00:53:54.415 [AWT-EventQueue-0] INFO  pl.EditorPO - File creation failed!
+2026-02-16 14:38:57.521 [AWT-EventQueue-0] ERROR pl.EditorPO - (conn=3) Unknown column 'NaN' in 'field list'
+2026-02-16 14:38:58.783 [AWT-EventQueue-0] INFO  pl.EditorPO - File creation failed!
