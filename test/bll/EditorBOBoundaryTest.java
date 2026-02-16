@@ -70,7 +70,7 @@ public class EditorBOBoundaryTest {
         assertFalse("Should return false for null inputs", result);
     }
     
-    // ========== TEST CATEGORY: EMPTY STRING VALIDATION ==========
+
     
     @Test
     public void testCreateFile_EmptyFileName() {
@@ -97,7 +97,7 @@ public class EditorBOBoundaryTest {
         assertTrue("Should handle whitespace content", result);
     }
     
-    // ========== TEST CATEGORY: LENGTH BOUNDARIES ==========
+    // ========== TEST CATEGORY: LENGTH BOUNDARIES ===
     
     @Test
     public void testCreateFile_MaxFileNameLength() {
@@ -136,7 +136,7 @@ public class EditorBOBoundaryTest {
         assertFalse("Should reject very large content", result);
     }
     
-    // ========== TEST CATEGORY: UPDATE FILE BOUNDARIES ==========
+    // ======== TEST CATEGORY: UPDATE FILE BOUNDARIES =====
     
     @Test
     public void testUpdateFile_NegativeId() {
@@ -178,7 +178,7 @@ public class EditorBOBoundaryTest {
         assertFalse("Should handle max integer ID", result);
     }
     
-    // ========== TEST CATEGORY: DELETE FILE BOUNDARIES ==========
+    // ====== TEST CATEGORY: DELETE FILE BOUNDARIES ========
     
     @Test
     public void testDeleteFile_NegativeId() {
